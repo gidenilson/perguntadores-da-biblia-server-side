@@ -1,0 +1,23 @@
+{
+    "name": "gidenilson/slim-boilerplate",
+    "description": "Slim boilerplate with Eloquent ORM and twig template",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gidenilson A. Santiago",
+            "email": "gidenilson@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0",
+        "illuminate/database": "~5.1",
+        "slim/twig-view": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+
+}
