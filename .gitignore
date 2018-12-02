@@ -1,8 +1,7 @@
-/vendor/
 .git
-.idea
+vendor/
 .settings
+.buildpath
 .project
 composer.lock
-.buildpath
-/cache/*
+storage/cache/*
